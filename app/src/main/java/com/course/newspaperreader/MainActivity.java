@@ -148,6 +148,29 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    ////menu
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id){
+            case R.id.menu_main_about_developer:
+                Intent intent = new Intent( MainActivity.this, AboutActivity.class );
+                startActivity( intent );
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+
     ////onBackPressed AlertDialog
     @Override
     public void onBackPressed() {
