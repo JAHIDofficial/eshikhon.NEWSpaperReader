@@ -19,7 +19,7 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     public void website(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://jahidofficial.github.io"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://mrdeveloperjis.github.io"));
         startActivity(intent);
     }
 
@@ -31,7 +31,7 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     public void messenger(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.me/JISprofile"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.me/mrdeveloperjis"));
         startActivity(intent);
     }
 
@@ -46,27 +46,27 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     public void github(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/JAHIDofficial"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/mrdeveloperjis"));
         startActivity(intent);
     }
 
     public void facebook(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/JISprofile"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/mrdeveloperjis"));
         startActivity(intent);
     }
 
     public void instgram(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/JAHID.profile"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/mrdeveloperjis"));
         startActivity(intent);
     }
 
     public void twitter(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/JAHIDprofile"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/mrdeveloperjis"));
         startActivity(intent);
     }
 
     public void linkedin(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/JAHIDprofile"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/mrdeveloperjis"));
         startActivity(intent);
     }
 
